@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--creating the instructions div-->
+    <div id="instructions" style="height: 50px; width: 400px">Try to find the 2 blue squares, and click them both consecutively.</div>
+
+    <!--creating the snake effect div-->
+    <div id="snakeDiv" onmouseover="snake()" style="width: 400px; height: 400px">
+    
+    <!--creating the first row of squares-->
+    <div id="firstDiv">
+        <div id="square" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+
+        <div id="squareTwo" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+
+        <div id="squareThree" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+
+        <div id="squareFour" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+    </div>
+
+    <!--creating the second row of squares-->
+    <div id="secondDiv">
+        <div id="squareFive" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#1235FF" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+
+        <div id="squareSix" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+
+        <div id="squareSeven" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+
+        <div id="squareEight" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+    </div>
+
+    <!--creating the third row of squares-->
+    <div id="thirdDiv">
+        <div id="squareNine" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+    
+        <div id="squareTen" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+    
+        <div id="squareEleven" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+    
+        <div id="squareTwelve" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+    </div>
+
+    <!--creating the fourth row of squares-->
+    <div id="fourthDiv">
+        <div id="squareThirteen" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+        
+        <div id="squareFourteen" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+        
+        <div id="squareFifteen" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#1235FF" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+        
+        <div id="squareSixteen" onmouseover="mouseGreen()" onmouseout="mouseBlack()" onclick="mouse(event)" data-color="#FF1235" 
+        style="background-color: #000000; width: 100px; height: 100px"></div>
+        </div>
+        </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
